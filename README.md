@@ -2,7 +2,7 @@
 
 Register for openai account
 
-Create google colab file and install pip using this command
+Create google colab file and install openai python library using this command
 
 ## !pip install -q openai
 
