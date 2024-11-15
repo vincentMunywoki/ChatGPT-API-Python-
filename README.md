@@ -18,5 +18,22 @@ messages = [
 so that it can know how to behave and what not to do.
 
 ## create an infinite loop.
+while True:
+    message = input("user: ")  # Get user input
+    if message:  # Check if the input is not empty
+        messages.append(
+            {"role": "user", "content": message},
+        )
+        
+        # Create a chat completion
+        chat = openai.ChatCompletion.create(
+            model="gpt-3.5-turbo",
+            messages=messages
+        )
+        
+        reply = chat.choices[0].message.content  # Get the assistant's reply
+        
+        print(f"ChatGPT: {reply}")  # Print the reply
+        messages.append({"role": "assistant", "content": reply})  # Add the reply to the messages
 
 ## import openai
