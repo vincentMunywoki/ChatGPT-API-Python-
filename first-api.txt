@@ -1,0 +1,5 @@
+1. Learn how to get OpenAI Key Token
+2. Two different methods of using ChatGPT API in Python
+3. Building a Python ChatGPT ChatBOT with openai Python package
+4. Using ChatGPT API Completions End point 
+5. How to change ChatGPT API Parameters like temperature 
