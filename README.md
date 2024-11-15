@@ -3,7 +3,8 @@
 Register for openai account
 
 Create google colab file and install openai python library using this command
-
+## Two different methods of using ChatGPT API in Python
+## import openai
 ## !pip install -q openai
 ##-q is for quiet installation
 
